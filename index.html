@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Dekemce Duran Duka</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<h1 id="title">Albert Einstein Survey</h1>
+
+<p id="description">Questionnaire on how well an average person knows about Einstein</p>
+
+<div id="body">
+
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+  
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  
+   <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+
+   <label id="number-label" for="number">
+  <p>Age:</p>
+  </label>
+  
+  <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+  
+  <p>Where was he born?</p>
+  <select id="dropdown">
+    
+    <option value="default">I don't know</option>
+    <option value="He has a moral center.">Austria.</option>
+    <option value="He stands for something.">Germany</option>
+    <option value="He shuns the limelight.">France</option>
+    <option value="He protects his team.">Switzerland</option>
+    <option value="He adapts to strengths and weaknesses.">Poland</option>
+    
+  </select>
+  
+  <p>What year is his "annus mirabilis" or 'miracle year'?</p>
+  
+  <input type="radio" name="movie" value="1">1900</input>
+  <br>
+  <input type="radio" name="movie" value="2">1901</input>
+  <br>
+ <input type="radio" name="movies" value="3">1902</input>
+<br>
+ <input type="radio" name="movies" value="4">1903</input>
+<br>
+ <input type="radio" name="movies" value="5">1904</input>
+<br>
+ <input type="radio" name="movies" value="6">1905</input>
+<br>
+ <input type="radio" name="movies" value="7">1906</input>
+
+<p>What theories was he known for?</p>
+
+<input type="checkbox" name="avenger" value="1">General Theory of Relativity</input>
+<br>
+ <input type="checkbox" name="avengers" value="2">Special Theory of Relativity</input>
+<br>
+ <input type="checkbox" name="avengers" value="3">Big Bang Theory</input>
+<br>
+ <input type="checkbox" name="avengers" value="4">Old Quantum Theory</input>
+<br>
+ <input type="checkbox" name="avengers" value="5">Wave Theory of Light</input>
+<br>
+
+<textarea id="comment" rows="4" cols="40">Add Comments</textarea>
+<br>
+
+<a href=""> <input id="submit" type="submit" value="Submit"> </a>
+            
+</form>
+
+</div>
+<!-- partial -->
+  
+</body>
+</html>
